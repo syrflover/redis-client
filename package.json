@@ -1,0 +1,24 @@
+{
+    "name": "@syrflover/redis",
+    "version": "0.0.1",
+    "description": "An redis client wrapped of redis package",
+    "main": "dist/lib.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": {
+        "name": "syrflover",
+        "url": "https://github.com/syrflover"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^14.14.2",
+        "@types/redis": "^2.8.28",
+        "typescript": "^4.0.3"
+    },
+    "dependencies": {
+        "redis": "^3.0.2"
+    }
+}
